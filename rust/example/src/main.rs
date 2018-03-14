@@ -3,6 +3,7 @@ extern crate sbp;
 
 use serialport::prelude::*;
 use std::time::Duration;
+//use sbp::messages::SBPMessage;
 
 fn main() {
     let s = SerialPortSettings {
